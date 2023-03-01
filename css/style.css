@@ -141,7 +141,7 @@ skills article ul{
     width: 50%;
 }
 
-@media (max-width: 1470px){
+@media (min-width: 1450px){
     #skills article{
         flex-direction: column;
     }
