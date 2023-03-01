@@ -124,7 +124,7 @@ main article{
 
 #skills article{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content:space-around;
     flex-wrap: wrap;
     width: 80vw;
@@ -143,6 +143,6 @@ skills article ul{
 
 @media (min-width: 1450px){
     #skills article{
-        flex-direction: column;
+        flex-direction: row;
     }
 }
