@@ -28,7 +28,7 @@ body{
 .links{
     display: flex;
     flex-direction: column;
-    width: 25vw;
+    width: 20vw;
     height: 100vh;
     background-color: #FAAB78;
     justify-content: space-around;
@@ -113,7 +113,8 @@ main article{
     align-items: center;
     margin: auto;
     line-height: 1.5rem;
-    max-width: 30vw;
+    max-width: 80%;
+    align-content: space-between;
 }
 
 #education article img{
@@ -121,8 +122,27 @@ main article{
     margin-bottom: 1rem;
 }
 
-@media (min-width: 768px){
-    .links{
-        width: 20vw;
+#skills article{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    width: 80vw;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+#skills article img{
+    width: 50%;
+    margin-bottom: 1rem;
+
+}
+skills article ul{
+    width: 50%;
+}
+
+@media (max-width: 1470px){
+    #skills article{
+        flex-direction: column;
     }
 }
